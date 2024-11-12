@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Figtree;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card{ 
+    width: 90%;
+       background-color: white;
+       height: 25rem;
+       width: 18rem;
+       border-radius: 1rem;
+       padding: 18px;
+       box-shadow: 0.6rem 0.6rem black;
+}
+
+.image img{
+           width: 100%;
+           border-radius: 1rem;
+}
+
+.tag{
+
+    margin: 0.4rem 0rem;
+    padding: 0.4rem 0rem;
+    font-size: 16px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 0.4rem;
+    width: 5rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 14px;
+}
+.date{
+
+    padding: 0.4rem 0rem;
+    font-size: 15px;
+
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0.4rem 0rem;
+
+}
+
+p{
+    font-size: 15px;
+    margin: 0.5rem 0rem;
+    font-weight: 200;
+}
+
+.logo{
+
+    margin-top: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 2rem;
+}
+
+h4{
+    margin-left: 1rem;
+}
+
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+        padding: 16px;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    p, .date {
+        font-size: 0.9rem;
+    }
+
+    .tag {
+        font-size: 12px;
+        width: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    p, .date, .tag {
+        font-size: 0.8rem;
+    }
+
+    .logo h4 {
+        font-size: 0.9rem;
+    }
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

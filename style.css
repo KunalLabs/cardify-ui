@@ -1,18 +1,4 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family: Figtree;
-    text-decoration: none;
-}
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    background-color: hsl(47, 88%, 63%);
-}
 .card{ 
     width: 90%;
        background-color: white;
